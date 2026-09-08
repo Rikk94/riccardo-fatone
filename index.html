@@ -4,30 +4,115 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Riccardo Fatone — infermiere, scrittore e creativo.">
-  <title>Riccardo Fatone — Home</title>
+  <title>Riccardo Fatone — Infermiere · Scrittore · Creativo</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="soft.css">
 </head>
-<body class="home-page">
-  <header class="site-header home-header">
-    <a class="brand" href="index.html" aria-label="Riccardo Fatone home">RF<span>.</span></a>
-    <a class="home-contact" href="contatti.html">CONTATTI ↗</a>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Riccardo Fatone home">RF<span>.</span></a>
+    <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navigazione principale">
+      <a href="#chi-sono">Chi sono</a>
+      <a href="#professione">Professione</a>
+      <a href="#scrittura">Scrittura</a>
+      <a href="#progetti">Progetti</a>
+      <a href="#passioni">Passioni</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
   </header>
-  <main class="home-hub">
-    <div class="hub-intro"><span>RICCARDO FATONE</span><p>Infermiere · Scrittore · Creativo</p></div>
-    <div class="hub-stage" aria-label="Navigazione principale">
-      <a class="satellite satellite-top" href="chi-sono.html"><small>01</small><strong>CHI SONO</strong><span>La persona</span></a>
-      <a class="satellite satellite-right" href="professione.html"><small>02</small><strong>PROFESSIONE</strong><span>Pediatria e ortopedia</span></a>
-      <a class="satellite satellite-bottom-right" href="scrittura.html"><small>03</small><strong>SCRITTURA</strong><span>BELLLISSIMO</span></a>
-      <a class="satellite satellite-bottom-left" href="progetti.html"><small>04</small><strong>PROGETTI</strong><span>Idee in movimento</span></a>
-      <a class="satellite satellite-left" href="passioni.html"><small>05</small><strong>PASSIONI</strong><span>Ciò che mi ispira</span></a>
-      <div class="hub-orbit orbit-main"></div>
-      <div class="hub-orbit orbit-inner"></div>
-      <div class="hub-dot dot-one"></div><div class="hub-dot dot-two"></div><div class="hub-dot dot-three"></div>
-      <a class="hub-core" href="chi-sono.html" aria-label="Entra nel mondo di Riccardo Fatone"><span>RF</span><small>ENTRA</small></a>
-    </div>
-    <div class="hub-footer"><span>SCOPRI IL MIO MONDO</span><span>SCORRI / SCEGLI UNA DIREZIONE</span></div>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">RICCARDO FATONE</p>
+        <h1>Cura, parole<br><em>e nuove idee.</em></h1>
+        <p class="lead">Infermiere. Scrittore. Creativo. Un luogo personale dove raccontare ciò che faccio, ciò che scrivo e ciò che ancora devo inventare.</p>
+        <div class="actions">
+          <a class="button button-primary" href="#chi-sono">Scopri chi sono</a>
+          <a class="button button-ghost" href="#progetti">Esplora i progetti</a>
+        </div>
+      </div>
+      <div class="hero-mark reveal" aria-hidden="true">
+        <div class="circle"><span>RF</span></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section id="chi-sono" class="section split">
+      <div class="section-label">01 / CHI SONO</div>
+      <div class="section-content reveal">
+        <p class="kicker">Una persona, più direzioni.</p>
+        <h2>Mi piace prendermi cura delle persone, raccontare storie e trasformare le idee in progetti.</h2>
+        <p>La mia quotidianità vive tra la professione infermieristica, la scrittura e la voglia di costruire qualcosa di personale. Questo sito nasce per riunire queste parti in un unico spazio.</p>
+        <div class="facts">
+          <div><strong>01</strong><span>Cura e professione</span></div>
+          <div><strong>02</strong><span>Scrittura e narrativa</span></div>
+          <div><strong>03</strong><span>Creatività e progetti</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="professione" class="section dark-section">
+      <div class="section-label">02 / PROFESSIONE</div>
+      <div class="section-content reveal">
+        <p class="kicker">Infermiere</p>
+        <h2>La cura è fatta di competenza, attenzione e presenza.</h2>
+        <p>La professione infermieristica è una parte importante della mia identità. Lavorare in ambito pediatrico e ortopedico significa unire preparazione tecnica e attenzione alla persona, anche nei momenti più delicati.</p>
+        <div class="quote">“Dietro ogni procedura c'è una persona. È da lì che comincia la cura.”</div>
+      </div>
+    </section>
+
+    <section id="scrittura" class="section writing-section">
+      <div class="section-label">03 / SCRITTURA</div>
+      <div class="book-card reveal">
+        <div class="book-number">01</div>
+        <div>
+          <p class="kicker">Romanzo</p>
+          <h2>BELLLISSIMO</h2>
+          <p>Una storia di identità, crescita, sentimenti e coraggio. Un romanzo che nasce dalla necessità di raccontare ciò che spesso rimane in silenzio.</p>
+          <span class="tag">Romanzo · Coming of age · LGBTQ+</span>
+        </div>
+        <a class="arrow-link" href="#contatti" aria-label="Scopri di più su BELLLISSIMO">↗</a>
+      </div>
+    </section>
+
+    <section id="progetti" class="section">
+      <div class="section-label">04 / PROGETTI</div>
+      <div class="section-content reveal">
+        <p class="kicker">Idee che diventano realtà</p>
+        <h2>Non mi piace lasciare le idee nel cassetto.</h2>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <span>01</span><h3>Oltre il Dubbio</h3><p>Informazione, riflessione e approfondimento in uno spazio indipendente dedicato alle persone e alle loro domande.</p><a href="https://oltreildubbio.it" target="_blank" rel="noopener">Visita il progetto ↗</a>
+          </article>
+          <article class="project-card"><span>02</span><h3>Filo&amp;Mare</h3><p>Un progetto creativo legato all'handmade, al crochet e alla voglia di trasformare una passione in qualcosa di concreto.</p><a href="#contatti">In arrivo ↗</a></article>
+          <article class="project-card"><span>03</span><h3>Formazione</h3><p>Materiali e idee per la formazione professionale, con particolare attenzione alla pediatria e alla cura della persona.</p><a href="#contatti">Scopri di più ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="passioni" class="section passions">
+      <div class="section-label">05 / PASSIONI</div>
+      <div class="section-content reveal">
+        <p class="kicker">Fuori dal lavoro</p>
+        <h2>Musica, concerti, cani, buon cibo e tutto ciò che accende una nuova idea.</h2>
+        <div class="word-cloud" aria-label="Passioni">MUSICA <i>·</i> CONCERTI <i>·</i> CREATIVITÀ <i>·</i> LIBRI <i>·</i> VIAGGI <i>·</i> CANI <i>·</i> FOOD <i>·</i> IDEE</div>
+      </div>
+    </section>
+
+    <section id="contatti" class="contact-section">
+      <p class="eyebrow">06 / CONTATTI</p>
+      <h2>Hai un'idea?<br><em>Parliamone.</em></h2>
+      <p>Questo spazio crescerà insieme ai miei progetti. Per collaborazioni, scrittura o semplicemente per metterti in contatto con me:</p>
+      <a class="contact-link" href="mailto:riccardo.fatone@gmail.com">Scrivimi ↗</a>
+    </section>
   </main>
+
+  <footer>
+    <div><strong>RICCARDO FATONE</strong><span>Infermiere · Scrittore · Creativo</span></div>
+    <div>© <span id="year"></span> Riccardo Fatone</div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
